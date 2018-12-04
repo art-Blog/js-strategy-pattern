@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "quokka": {
     "babel": true
@@ -12,9 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-    "devDependencies": {
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
     "babel-core": "^6.26.3",
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }
 }
